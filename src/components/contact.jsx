@@ -2,16 +2,16 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="mt-20 pb-24 flex flex-col items-center justify-center text-center"
-    >
+    <section id="contact" className="mt-20 pb-24 flex flex-col items-center justify-center text-center">
       <h3 className="text-3xl font-semibold text-slate-100">Contact</h3>
 
       <div className="mt-6 space-y-3 text-slate-300 text-lg">
         <p>📞 +91 95624 94267</p>
         <p>📞 +974 5035 9887</p>
         <p>✉️ ansilkk125@gmail.com</p>
+        <div className="mt-4">
+          <a href="mailto:ansilkk125@gmail.com" className="px-6 py-2 rounded-md bg-emerald-500 text-white">Email me</a>
+        </div>
       </div>
     </section>
   );
