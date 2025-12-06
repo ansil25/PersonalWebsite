@@ -1,7 +1,7 @@
 // src/components/portfolio.jsx
 import React from "react";
 import myphoto from "../assets/myphoto.jpg"; // <-- your photo
-import Project from "./Projects                                                         ";
+import Project from "./Projects"; 
 import Skills from "./skills";
 import Learnings from "./Learnings";
 import Contact from "./contact";
