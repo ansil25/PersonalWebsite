@@ -1,7 +1,7 @@
 import React from "react";
 import myphoto from "../assets/myphoto.jpg";
 import Projects from "./Projects";
-import Skills from "./Skills";
+import Skills from"./skills"
 import Learnings from "./Learnings";
 import Contact from "./Contact";
 import resumePDF from "../assets/resume.pdf";
