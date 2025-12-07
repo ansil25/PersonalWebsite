@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Learnings from "./Learnings";
 import Contact from "./Contact";
+import resumePDF from "../assets/resume.pdf";
 
 export default function Portfolio() {
   return (
@@ -25,7 +26,7 @@ export default function Portfolio() {
 
               <div className="mt-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <a
-                  href="/resume.pdf"
+                  href="/resume.p"
                   download
                   className="inline-block px-6 py-3 font-medium rounded-md bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 shadow-lg transition"
                 >
